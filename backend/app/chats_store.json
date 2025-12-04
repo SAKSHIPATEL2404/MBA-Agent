@@ -1,0 +1,28 @@
+[
+  {
+    "id": "e5dd6786-532f-4d67-b712-8c41f9332a98",
+    "title": "New chat",
+    "messages": [],
+    "created_at": "2025-12-03T10:41:08.067452",
+    "updated_at": "2025-12-03T10:41:08.067452"
+  },
+  {
+    "id": "87bbdd17-6d02-4b5b-ae94-fc065d52174b",
+    "title": "New chat",
+    "messages": [
+      {
+        "id": "cqfwl3x",
+        "role": "user",
+        "content": "hello",
+        "thread": []
+      },
+      {
+        "id": "btroxh8",
+        "role": "assistant",
+        "content": "No reply"
+      }
+    ],
+    "created_at": "2025-12-03T10:41:50.521099",
+    "updated_at": "2025-12-03T10:41:54.814008"
+  }
+]

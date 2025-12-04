@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+chromadb
+numpy
+requests
+python-multipart

@@ -1,0 +1,24 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - CHROMA_DIR=/data/chroma
+    depends_on: []
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - backend
+  # Optional Chroma service if you want containerized Chroma image (replace if using managed)
+  # chroma:
+  #   image: ghcr.io/chroma-core/chroma:latest
+  #   ports:
+  #     - "8001:8001"
